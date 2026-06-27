@@ -1,5 +1,7 @@
 # Facial Emotion Recognition with ViT
 
+**🔴 [Try the live demo on Hugging Face Spaces](https://huggingface.co/spaces/barisgovercin/facial-emotion-vit)** — upload a face photo and the model predicts the emotion.
+
 Fine-tuning a Vision Transformer (ViT-Base/16) to classify emotions from face crops extracted from RAVDESS videos. Five emotions: angry, fearful, happy, neutral, sad.
 
 This was built as part of CE903 Group Project at the University of Essex. The model runs frame-level classification and can aggregate predictions at video level using majority voting or mean probability.
