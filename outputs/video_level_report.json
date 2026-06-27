@@ -1,0 +1,741 @@
+{
+  "eval_json": "data/manual_test/crema_test.json",
+  "checkpoint": "outputs\\vit_best.pth",
+  "tta": true,
+  "total_videos": 50,
+  "majority_correct": 25,
+  "majority_accuracy": 0.5,
+  "mean_correct": 25,
+  "mean_accuracy": 0.5,
+  "per_emotion": {
+    "angry": {
+      "total": 10,
+      "majority_correct": 4,
+      "mean_correct": 4
+    },
+    "fearful": {
+      "total": 10,
+      "majority_correct": 9,
+      "mean_correct": 9
+    },
+    "happy": {
+      "total": 10,
+      "majority_correct": 9,
+      "mean_correct": 9
+    },
+    "neutral": {
+      "total": 10,
+      "majority_correct": 2,
+      "mean_correct": 2
+    },
+    "sad": {
+      "total": 10,
+      "majority_correct": 1,
+      "mean_correct": 1
+    }
+  },
+  "video_results": [
+    {
+      "video": "crema_1003_IEO_ANG_HI",
+      "true": "angry",
+      "frames": 16,
+      "majority_pred": "happy",
+      "majority_correct": false,
+      "mean_pred": "happy",
+      "mean_correct": false,
+      "mean_confidence": 0.4321,
+      "frame_predictions": {
+        "happy": 10,
+        "fearful": 3,
+        "neutral": 1,
+        "angry": 2
+      }
+    },
+    {
+      "video": "crema_1004_IEO_ANG_HI",
+      "true": "angry",
+      "frames": 24,
+      "majority_pred": "angry",
+      "majority_correct": true,
+      "mean_pred": "angry",
+      "mean_correct": true,
+      "mean_confidence": 0.4936,
+      "frame_predictions": {
+        "happy": 1,
+        "angry": 14,
+        "fearful": 9
+      }
+    },
+    {
+      "video": "crema_1005_IEO_ANG_HI",
+      "true": "angry",
+      "frames": 15,
+      "majority_pred": "fearful",
+      "majority_correct": false,
+      "mean_pred": "fearful",
+      "mean_correct": false,
+      "mean_confidence": 0.5306,
+      "frame_predictions": {
+        "neutral": 1,
+        "angry": 3,
+        "fearful": 10,
+        "happy": 1
+      }
+    },
+    {
+      "video": "crema_1006_IEO_ANG_HI",
+      "true": "angry",
+      "frames": 16,
+      "majority_pred": "angry",
+      "majority_correct": true,
+      "mean_pred": "angry",
+      "mean_correct": true,
+      "mean_confidence": 0.594,
+      "frame_predictions": {
+        "happy": 3,
+        "angry": 13
+      }
+    },
+    {
+      "video": "crema_1007_IEO_ANG_HI",
+      "true": "angry",
+      "frames": 15,
+      "majority_pred": "fearful",
+      "majority_correct": false,
+      "mean_pred": "fearful",
+      "mean_correct": false,
+      "mean_confidence": 0.3357,
+      "frame_predictions": {
+        "neutral": 4,
+        "angry": 3,
+        "fearful": 7,
+        "happy": 1
+      }
+    },
+    {
+      "video": "crema_1008_IEO_ANG_HI",
+      "true": "angry",
+      "frames": 18,
+      "majority_pred": "fearful",
+      "majority_correct": false,
+      "mean_pred": "fearful",
+      "mean_correct": false,
+      "mean_confidence": 0.5791,
+      "frame_predictions": {
+        "angry": 5,
+        "fearful": 13
+      }
+    },
+    {
+      "video": "crema_1009_IEO_ANG_HI",
+      "true": "angry",
+      "frames": 17,
+      "majority_pred": "fearful",
+      "majority_correct": false,
+      "mean_pred": "fearful",
+      "mean_correct": false,
+      "mean_confidence": 0.5093,
+      "frame_predictions": {
+        "angry": 6,
+        "fearful": 11
+      }
+    },
+    {
+      "video": "crema_1010_IEO_ANG_HI",
+      "true": "angry",
+      "frames": 13,
+      "majority_pred": "angry",
+      "majority_correct": true,
+      "mean_pred": "angry",
+      "mean_correct": true,
+      "mean_confidence": 0.8355,
+      "frame_predictions": {
+        "angry": 13
+      }
+    },
+    {
+      "video": "crema_1011_IEO_ANG_HI",
+      "true": "angry",
+      "frames": 21,
+      "majority_pred": "angry",
+      "majority_correct": true,
+      "mean_pred": "angry",
+      "mean_correct": true,
+      "mean_confidence": 0.6387,
+      "frame_predictions": {
+        "angry": 15,
+        "fearful": 6
+      }
+    },
+    {
+      "video": "crema_1012_IEO_ANG_HI",
+      "true": "angry",
+      "frames": 13,
+      "majority_pred": "fearful",
+      "majority_correct": false,
+      "mean_pred": "fearful",
+      "mean_correct": false,
+      "mean_confidence": 0.7403,
+      "frame_predictions": {
+        "fearful": 12,
+        "angry": 1
+      }
+    },
+    {
+      "video": "crema_1003_IEO_FEA_HI",
+      "true": "fearful",
+      "frames": 17,
+      "majority_pred": "fearful",
+      "majority_correct": true,
+      "mean_pred": "fearful",
+      "mean_correct": true,
+      "mean_confidence": 0.5701,
+      "frame_predictions": {
+        "fearful": 17
+      }
+    },
+    {
+      "video": "crema_1004_IEO_FEA_HI",
+      "true": "fearful",
+      "frames": 21,
+      "majority_pred": "fearful",
+      "majority_correct": true,
+      "mean_pred": "fearful",
+      "mean_correct": true,
+      "mean_confidence": 0.8388,
+      "frame_predictions": {
+        "fearful": 21
+      }
+    },
+    {
+      "video": "crema_1005_IEO_FEA_HI",
+      "true": "fearful",
+      "frames": 15,
+      "majority_pred": "fearful",
+      "majority_correct": true,
+      "mean_pred": "fearful",
+      "mean_correct": true,
+      "mean_confidence": 0.5405,
+      "frame_predictions": {
+        "fearful": 13,
+        "angry": 2
+      }
+    },
+    {
+      "video": "crema_1006_IEO_FEA_HI",
+      "true": "fearful",
+      "frames": 16,
+      "majority_pred": "fearful",
+      "majority_correct": true,
+      "mean_pred": "fearful",
+      "mean_correct": true,
+      "mean_confidence": 0.7222,
+      "frame_predictions": {
+        "fearful": 15,
+        "angry": 1
+      }
+    },
+    {
+      "video": "crema_1007_IEO_FEA_HI",
+      "true": "fearful",
+      "frames": 12,
+      "majority_pred": "fearful",
+      "majority_correct": true,
+      "mean_pred": "fearful",
+      "mean_correct": true,
+      "mean_confidence": 0.6478,
+      "frame_predictions": {
+        "fearful": 9,
+        "sad": 3
+      }
+    },
+    {
+      "video": "crema_1008_IEO_FEA_HI",
+      "true": "fearful",
+      "frames": 19,
+      "majority_pred": "fearful",
+      "majority_correct": true,
+      "mean_pred": "fearful",
+      "mean_correct": true,
+      "mean_confidence": 0.8824,
+      "frame_predictions": {
+        "fearful": 19
+      }
+    },
+    {
+      "video": "crema_1009_IEO_FEA_HI",
+      "true": "fearful",
+      "frames": 14,
+      "majority_pred": "fearful",
+      "majority_correct": true,
+      "mean_pred": "fearful",
+      "mean_correct": true,
+      "mean_confidence": 0.7984,
+      "frame_predictions": {
+        "fearful": 14
+      }
+    },
+    {
+      "video": "crema_1010_IEO_FEA_HI",
+      "true": "fearful",
+      "frames": 19,
+      "majority_pred": "angry",
+      "majority_correct": false,
+      "mean_pred": "angry",
+      "mean_correct": false,
+      "mean_confidence": 0.4753,
+      "frame_predictions": {
+        "angry": 11,
+        "fearful": 8
+      }
+    },
+    {
+      "video": "crema_1011_IEO_FEA_HI",
+      "true": "fearful",
+      "frames": 16,
+      "majority_pred": "fearful",
+      "majority_correct": true,
+      "mean_pred": "fearful",
+      "mean_correct": true,
+      "mean_confidence": 0.7573,
+      "frame_predictions": {
+        "fearful": 15,
+        "angry": 1
+      }
+    },
+    {
+      "video": "crema_1012_IEO_FEA_HI",
+      "true": "fearful",
+      "frames": 17,
+      "majority_pred": "fearful",
+      "majority_correct": true,
+      "mean_pred": "fearful",
+      "mean_correct": true,
+      "mean_confidence": 0.8136,
+      "frame_predictions": {
+        "angry": 1,
+        "fearful": 16
+      }
+    },
+    {
+      "video": "crema_1003_IEO_HAP_HI",
+      "true": "happy",
+      "frames": 14,
+      "majority_pred": "happy",
+      "majority_correct": true,
+      "mean_pred": "happy",
+      "mean_correct": true,
+      "mean_confidence": 0.8591,
+      "frame_predictions": {
+        "happy": 14
+      }
+    },
+    {
+      "video": "crema_1004_IEO_HAP_HI",
+      "true": "happy",
+      "frames": 18,
+      "majority_pred": "happy",
+      "majority_correct": true,
+      "mean_pred": "happy",
+      "mean_correct": true,
+      "mean_confidence": 0.8722,
+      "frame_predictions": {
+        "happy": 18
+      }
+    },
+    {
+      "video": "crema_1005_IEO_HAP_HI",
+      "true": "happy",
+      "frames": 14,
+      "majority_pred": "happy",
+      "majority_correct": true,
+      "mean_pred": "happy",
+      "mean_correct": true,
+      "mean_confidence": 0.6139,
+      "frame_predictions": {
+        "neutral": 4,
+        "happy": 10
+      }
+    },
+    {
+      "video": "crema_1006_IEO_HAP_HI",
+      "true": "happy",
+      "frames": 11,
+      "majority_pred": "happy",
+      "majority_correct": true,
+      "mean_pred": "happy",
+      "mean_correct": true,
+      "mean_confidence": 0.8576,
+      "frame_predictions": {
+        "happy": 11
+      }
+    },
+    {
+      "video": "crema_1007_IEO_HAP_HI",
+      "true": "happy",
+      "frames": 11,
+      "majority_pred": "happy",
+      "majority_correct": true,
+      "mean_pred": "happy",
+      "mean_correct": true,
+      "mean_confidence": 0.6743,
+      "frame_predictions": {
+        "neutral": 2,
+        "happy": 9
+      }
+    },
+    {
+      "video": "crema_1008_IEO_HAP_HI",
+      "true": "happy",
+      "frames": 16,
+      "majority_pred": "happy",
+      "majority_correct": true,
+      "mean_pred": "happy",
+      "mean_correct": true,
+      "mean_confidence": 0.4542,
+      "frame_predictions": {
+        "angry": 3,
+        "fearful": 2,
+        "happy": 11
+      }
+    },
+    {
+      "video": "crema_1009_IEO_HAP_HI",
+      "true": "happy",
+      "frames": 17,
+      "majority_pred": "fearful",
+      "majority_correct": false,
+      "mean_pred": "fearful",
+      "mean_correct": false,
+      "mean_confidence": 0.4149,
+      "frame_predictions": {
+        "angry": 3,
+        "fearful": 8,
+        "happy": 6
+      }
+    },
+    {
+      "video": "crema_1010_IEO_HAP_HI",
+      "true": "happy",
+      "frames": 13,
+      "majority_pred": "happy",
+      "majority_correct": true,
+      "mean_pred": "happy",
+      "mean_correct": true,
+      "mean_confidence": 0.7135,
+      "frame_predictions": {
+        "angry": 1,
+        "fearful": 1,
+        "happy": 11
+      }
+    },
+    {
+      "video": "crema_1011_IEO_HAP_HI",
+      "true": "happy",
+      "frames": 16,
+      "majority_pred": "happy",
+      "majority_correct": true,
+      "mean_pred": "happy",
+      "mean_correct": true,
+      "mean_confidence": 0.6493,
+      "frame_predictions": {
+        "angry": 4,
+        "happy": 12
+      }
+    },
+    {
+      "video": "crema_1012_IEO_HAP_HI",
+      "true": "happy",
+      "frames": 17,
+      "majority_pred": "happy",
+      "majority_correct": true,
+      "mean_pred": "happy",
+      "mean_correct": true,
+      "mean_confidence": 0.6473,
+      "frame_predictions": {
+        "fearful": 3,
+        "happy": 14
+      }
+    },
+    {
+      "video": "crema_1003_IEO_NEU_XX",
+      "true": "neutral",
+      "frames": 14,
+      "majority_pred": "neutral",
+      "majority_correct": true,
+      "mean_pred": "neutral",
+      "mean_correct": true,
+      "mean_confidence": 0.3812,
+      "frame_predictions": {
+        "neutral": 7,
+        "happy": 7
+      }
+    },
+    {
+      "video": "crema_1004_IEO_NEU_XX",
+      "true": "neutral",
+      "frames": 14,
+      "majority_pred": "fearful",
+      "majority_correct": false,
+      "mean_pred": "fearful",
+      "mean_correct": false,
+      "mean_confidence": 0.4996,
+      "frame_predictions": {
+        "fearful": 10,
+        "angry": 4
+      }
+    },
+    {
+      "video": "crema_1005_IEO_NEU_XX",
+      "true": "neutral",
+      "frames": 13,
+      "majority_pred": "fearful",
+      "majority_correct": false,
+      "mean_pred": "fearful",
+      "mean_correct": false,
+      "mean_confidence": 0.5377,
+      "frame_predictions": {
+        "neutral": 1,
+        "angry": 1,
+        "fearful": 11
+      }
+    },
+    {
+      "video": "crema_1006_IEO_NEU_XX",
+      "true": "neutral",
+      "frames": 13,
+      "majority_pred": "fearful",
+      "majority_correct": false,
+      "mean_pred": "fearful",
+      "mean_correct": false,
+      "mean_confidence": 0.3899,
+      "frame_predictions": {
+        "fearful": 7,
+        "angry": 4,
+        "happy": 2
+      }
+    },
+    {
+      "video": "crema_1007_IEO_NEU_XX",
+      "true": "neutral",
+      "frames": 13,
+      "majority_pred": "neutral",
+      "majority_correct": true,
+      "mean_pred": "neutral",
+      "mean_correct": true,
+      "mean_confidence": 0.5814,
+      "frame_predictions": {
+        "neutral": 8,
+        "happy": 5
+      }
+    },
+    {
+      "video": "crema_1008_IEO_NEU_XX",
+      "true": "neutral",
+      "frames": 9,
+      "majority_pred": "fearful",
+      "majority_correct": false,
+      "mean_pred": "fearful",
+      "mean_correct": false,
+      "mean_confidence": 0.8008,
+      "frame_predictions": {
+        "fearful": 9
+      }
+    },
+    {
+      "video": "crema_1009_IEO_NEU_XX",
+      "true": "neutral",
+      "frames": 16,
+      "majority_pred": "angry",
+      "majority_correct": false,
+      "mean_pred": "angry",
+      "mean_correct": false,
+      "mean_confidence": 0.7954,
+      "frame_predictions": {
+        "angry": 16
+      }
+    },
+    {
+      "video": "crema_1010_IEO_NEU_XX",
+      "true": "neutral",
+      "frames": 14,
+      "majority_pred": "angry",
+      "majority_correct": false,
+      "mean_pred": "angry",
+      "mean_correct": false,
+      "mean_confidence": 0.6753,
+      "frame_predictions": {
+        "angry": 12,
+        "fearful": 2
+      }
+    },
+    {
+      "video": "crema_1011_IEO_NEU_XX",
+      "true": "neutral",
+      "frames": 11,
+      "majority_pred": "fearful",
+      "majority_correct": false,
+      "mean_pred": "fearful",
+      "mean_correct": false,
+      "mean_confidence": 0.5594,
+      "frame_predictions": {
+        "angry": 2,
+        "fearful": 9
+      }
+    },
+    {
+      "video": "crema_1012_IEO_NEU_XX",
+      "true": "neutral",
+      "frames": 14,
+      "majority_pred": "fearful",
+      "majority_correct": false,
+      "mean_pred": "fearful",
+      "mean_correct": false,
+      "mean_confidence": 0.6252,
+      "frame_predictions": {
+        "fearful": 12,
+        "angry": 2
+      }
+    },
+    {
+      "video": "crema_1003_IEO_SAD_HI",
+      "true": "sad",
+      "frames": 15,
+      "majority_pred": "fearful",
+      "majority_correct": false,
+      "mean_pred": "fearful",
+      "mean_correct": false,
+      "mean_confidence": 0.3604,
+      "frame_predictions": {
+        "fearful": 8,
+        "sad": 7
+      }
+    },
+    {
+      "video": "crema_1004_IEO_SAD_HI",
+      "true": "sad",
+      "frames": 30,
+      "majority_pred": "happy",
+      "majority_correct": false,
+      "mean_pred": "happy",
+      "mean_correct": false,
+      "mean_confidence": 0.5551,
+      "frame_predictions": {
+        "happy": 22,
+        "fearful": 5,
+        "sad": 3
+      }
+    },
+    {
+      "video": "crema_1005_IEO_SAD_HI",
+      "true": "sad",
+      "frames": 15,
+      "majority_pred": "fearful",
+      "majority_correct": false,
+      "mean_pred": "fearful",
+      "mean_correct": false,
+      "mean_confidence": 0.6835,
+      "frame_predictions": {
+        "fearful": 15
+      }
+    },
+    {
+      "video": "crema_1006_IEO_SAD_HI",
+      "true": "sad",
+      "frames": 14,
+      "majority_pred": "fearful",
+      "majority_correct": false,
+      "mean_pred": "fearful",
+      "mean_correct": false,
+      "mean_confidence": 0.6379,
+      "frame_predictions": {
+        "fearful": 12,
+        "happy": 2
+      }
+    },
+    {
+      "video": "crema_1007_IEO_SAD_HI",
+      "true": "sad",
+      "frames": 16,
+      "majority_pred": "sad",
+      "majority_correct": true,
+      "mean_pred": "sad",
+      "mean_correct": true,
+      "mean_confidence": 0.5063,
+      "frame_predictions": {
+        "neutral": 1,
+        "sad": 14,
+        "fearful": 1
+      }
+    },
+    {
+      "video": "crema_1008_IEO_SAD_HI",
+      "true": "sad",
+      "frames": 20,
+      "majority_pred": "fearful",
+      "majority_correct": false,
+      "mean_pred": "fearful",
+      "mean_correct": false,
+      "mean_confidence": 0.7595,
+      "frame_predictions": {
+        "fearful": 19,
+        "sad": 1
+      }
+    },
+    {
+      "video": "crema_1009_IEO_SAD_HI",
+      "true": "sad",
+      "frames": 23,
+      "majority_pred": "fearful",
+      "majority_correct": false,
+      "mean_pred": "fearful",
+      "mean_correct": false,
+      "mean_confidence": 0.7035,
+      "frame_predictions": {
+        "fearful": 21,
+        "angry": 1,
+        "sad": 1
+      }
+    },
+    {
+      "video": "crema_1010_IEO_SAD_HI",
+      "true": "sad",
+      "frames": 21,
+      "majority_pred": "angry",
+      "majority_correct": false,
+      "mean_pred": "angry",
+      "mean_correct": false,
+      "mean_confidence": 0.6093,
+      "frame_predictions": {
+        "angry": 19,
+        "fearful": 2
+      }
+    },
+    {
+      "video": "crema_1011_IEO_SAD_HI",
+      "true": "sad",
+      "frames": 20,
+      "majority_pred": "fearful",
+      "majority_correct": false,
+      "mean_pred": "fearful",
+      "mean_correct": false,
+      "mean_confidence": 0.9077,
+      "frame_predictions": {
+        "fearful": 20
+      }
+    },
+    {
+      "video": "crema_1012_IEO_SAD_HI",
+      "true": "sad",
+      "frames": 17,
+      "majority_pred": "fearful",
+      "majority_correct": false,
+      "mean_pred": "fearful",
+      "mean_correct": false,
+      "mean_confidence": 0.751,
+      "frame_predictions": {
+        "fearful": 17
+      }
+    }
+  ]
+}
